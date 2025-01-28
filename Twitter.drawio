@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Kt5064PdepQr5R5rHAA1-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
-          <mxGeometry x="80" y="399" width="20" height="30" as="geometry" />
+          <mxGeometry x="40" y="399" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kt5064PdepQr5R5rHAA1-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Features&lt;/h1&gt;&lt;p style=&quot;line-height: 60%;&quot;&gt;Tweet&lt;/p&gt;&lt;p style=&quot;line-height: 60%;&quot;&gt;Retweet&lt;/p&gt;&lt;p style=&quot;line-height: 60%;&quot;&gt;Timeline&lt;/p&gt;&lt;p style=&quot;line-height: 60%;&quot;&gt;Trending&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="80" width="120" height="130" as="geometry" />
@@ -22,9 +22,9 @@
         <mxCell id="Kt5064PdepQr5R5rHAA1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Kt5064PdepQr5R5rHAA1-1" target="Kt5064PdepQr5R5rHAA1-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kt5064PdepQr5R5rHAA1-10" value="Tweet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kt5064PdepQr5R5rHAA1-5">
+        <mxCell id="Kt5064PdepQr5R5rHAA1-10" value="Tweet/Retweet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kt5064PdepQr5R5rHAA1-5">
           <mxGeometry x="-0.2286" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Kt5064PdepQr5R5rHAA1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kt5064PdepQr5R5rHAA1-14">
@@ -44,7 +44,7 @@
         <mxCell id="Kt5064PdepQr5R5rHAA1-17" value="Redis DB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.memorydb_for_redis;" vertex="1" parent="1">
           <mxGeometry x="500" y="389" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Kt5064PdepQr5R5rHAA1-33" value="Autoscale EC2" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" vertex="1" parent="1">
+        <mxCell id="Kt5064PdepQr5R5rHAA1-33" value="EC2 Autoscale" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" vertex="1" parent="1">
           <mxGeometry x="390" y="389" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Kt5064PdepQr5R5rHAA1-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kt5064PdepQr5R5rHAA1-34" target="Kt5064PdepQr5R5rHAA1-38">
@@ -110,6 +110,12 @@
         </mxCell>
         <mxCell id="Kt5064PdepQr5R5rHAA1-47" value="Wes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="215" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kt5064PdepQr5R5rHAA1-55" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
+          <mxGeometry x="30" y="349" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kt5064PdepQr5R5rHAA1-56" value="Sam" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="319" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
